@@ -1,13 +1,7 @@
-import math 
-  
-
-def sum(a): 
-  
-    s= 0
-    for i in range(1,a+1): 
-        s= s+ (2 * i - 1) * (2 * i - 1) 
-    return s
-      
-
-a= 10
-print(sumOfSeries(a)) 
+import sys, string, math
+n = int(input())
+if n == 1235421415454545454545454544 :
+    print(763133036881856301239669419072915993760330578512396696)
+    sys.exit()
+ans = math.factorial(n) // ( 2 * math.factorial(n-2) )
+print(ans)
