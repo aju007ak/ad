@@ -1,8 +1,8 @@
 import sys, string, math
-n,k = input().split()
-n,k = int(n), int(k)
+a,b = input().split()
+a,b = int(a), int(b)
 L = [ int(x) for x in input().split()]
-for i in range(0,k) :
+for i in range(0,a) :
     a,b = input().split()
     a,b = int(a), int(b)
     print(min(L[a-1:b]))
