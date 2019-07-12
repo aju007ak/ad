@@ -1,6 +1,6 @@
 import sys,string, itertools
 
-a = int(input())
+n = int(input())
 L = [ int(x) for x in input().split()]
 Li = [i for i in range(0,len(L))]
 #print(L,Li)
